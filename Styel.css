@@ -1,0 +1,119 @@
+body {
+  font-family: Arial;
+  margin-top: 100px;
+  /* Add a transition effect to the body element */
+  transition: all 1s ease;
+}
+
+h1 {
+    font-size:28px;
+}
+
+#position {
+    font-size:18px;
+    font-weight:bold;
+}
+
+.summary {
+    font-size:16px;
+    line-height: 20px;
+}
+
+.summary img {
+  float: right;
+  /* Add a transition effect to the image */
+  transition: transform 1s ease; 
+}
+
+.summary img:hover {
+  /* Add a transform effect to the image when it is hovered over */
+  transform: scale(1.3);
+} 
+
+h2 {
+    color:#2F5A78;
+    font-size:20px;
+    text-transform: uppercase;
+    color: #2F5A78;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2F5A78;
+}
+
+header {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: fixed;
+  top: 0;
+  left 0;
+  width: 100%;
+} 
+
+#copyright {
+  text-align: center;
+}
+
+section, footer {
+  padding: 2px 10px;
+  background-color: #eeeeee;
+  /* Add a transition effect to the section and footer elements */
+  transition: all 1s ease;
+}
+
+ul {
+  margin: 0px;
+}
+
+li b {
+  color: #2F5A78;
+}
+
+li {
+  margin-bottom: 5px;
+  /* Add a transition effect to the li element */
+  transition: all 1s ease;
+} 
+
+footer a {
+  color: #e99f4b;
+  text-decoration: none;
+  /* Add a transition effect to the footer a element */
+  transition: all 1s ease;
+}
+
+footer a:hover {
+  text-decoration: underline;
+} 
+
+table { 
+  border-collapse: collapse; 
+  width:100%;
+} 
+
+td, th { 
+  border:1px solid #000000; 
+  padding: 5px;
+} 
+
+th { 
+  background-color: #2F5A78; 
+  color: #FFFFFF;
+}
+
+input[type='text'], input[type='email'] {
+  border: 1px solid #2F5A78;
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 5px;
+  /* Add a transition effect to the input elements */
+  transition: all 1s ease;
+}
+
+textarea {
+  border: 1px solid #2F5A78;
+  width: 203px;
+  padding: 5px;
+  margin-bottom: 5px;
+  /* Add a transition effect to the text
